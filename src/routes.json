@@ -1,0 +1,8 @@
+{
+  "routes": [
+    {
+      "route": "/about",
+      "serve": "/about.html"
+    }
+  ]
+}
