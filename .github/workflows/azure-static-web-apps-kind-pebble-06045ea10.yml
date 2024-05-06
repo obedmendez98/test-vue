@@ -25,7 +25,7 @@ jobs:
           npm install
           npm run build
       - name: Copy routes.json
-        run: cp src/routes.json dist/routes.json
+        run: cp src/staticwebapp.config.json dist/staticwebapp.config.json
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
